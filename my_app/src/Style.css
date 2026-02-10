@@ -1,0 +1,22 @@
+
+    .header-1{
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 10%;
+    height: 5%;
+}
+.hari{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}

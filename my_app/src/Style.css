@@ -1,21 +1,28 @@
 
+    .header{
+       background-color: red;
+    }
     .header-1{
     width: 100%;
     height: 40px;
+     text-decoration: none;
     background-color: aqua;
     display: flex;
     gap: 50px;
     align-items: center;
     justify-content: center;
+   
 }
 
 img{
     width: 10%;
     height: 5%;
+    background-color: aqua;
+    border: 10px red;
 }
 .hari{
     display: flex;
-    align-items: center;
+    
     justify-content: center;
     margin: 10px;
 

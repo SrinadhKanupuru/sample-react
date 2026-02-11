@@ -14,6 +14,9 @@ const Header = () => {
 
             <NavLink to='subbu'>subbu</NavLink>
           </div>
+          <div>
+            <NavLink to='/'>srinadh</NavLink>
+          </div>
            
             
 

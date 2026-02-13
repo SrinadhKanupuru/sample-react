@@ -6,15 +6,18 @@ import Header from './Header';
 import Hari from './Hari';
 import Subbu from './Subbu';
 import Srinadh from './Srinadh';
+import Logo from './Logo';
 
 const Routing = () => {
   return (
     <div>
       <Header/>
       <Routes>
+        
         <Route path='hari' element={<Hari/>}/>
         <Route path='subbu' element={<Subbu/>}/>
-        <Route path='/' element={<Srinadh/>}/>
+        <Route path='srinadh' element={<Srinadh/>}/>
+        <Route path='logo' element={<Logo/>}/>
         
       </Routes>
     </div>

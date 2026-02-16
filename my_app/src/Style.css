@@ -1,14 +1,15 @@
 
     
     .header-1{
-    width: 100%;
+    width: 50%;
     height: 40px;
-     text-decoration: none;
+    text-decoration: none;
+    
     background-color: aqua;
     display: flex;
     gap: 50px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
    
 }
 
@@ -19,12 +20,12 @@ img{
     border: 10px red;
 }
 .hari{
+    
     display: flex;
     
     justify-content: center;
     margin: 10px;
-    border-radius: 10px;
-
+   
 }
 .hari img{
     
@@ -37,16 +38,18 @@ img{
 .header-1 img{
     height: 55px;
     width: 50px;
-    float: left;
-    margin-right: 10px;
+    
+    
+    margin-left: 0px;
     
     
 }
 .nav{
     display: flex;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 40px;
+    justify-content: flex-end;
     align-items: center;
+    margin: 0;
 }
 .logo{
     display: flex;

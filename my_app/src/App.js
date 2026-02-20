@@ -1,5 +1,6 @@
 
-import BasicState from './BasicState';
+
+import GET from './GET';
 
 import './Style.css';
 
@@ -7,7 +8,7 @@ import './Style.css';
 function App() {
   return (
     <div className="App">
-    <BasicState/>
+    <GET/>
     </div>
   );
 }

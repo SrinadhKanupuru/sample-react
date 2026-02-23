@@ -1,6 +1,7 @@
 
 
-import GET from './GET';
+import BasicPost from './BasicPost';
+
 
 import './Style.css';
 
@@ -8,7 +9,7 @@ import './Style.css';
 function App() {
   return (
     <div className="App">
-    <GET/>
+    <BasicPost/>
     </div>
   );
 }

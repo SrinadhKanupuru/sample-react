@@ -8,11 +8,19 @@ function BasicPost() {
     const [body,setbody] = useState('')
     const submitHandler =(e) => {
       e.preventDefault();
-      Axios.post('https://jsonplaceholder.typicode.com/posts',{userId,Id,title,body});
+      Axios.post('https://jsonplaceholder.typicode.com/posts',{userId,Id,title,body})
+      .then((res) => {
+        alert("updated")
+        console.log(res.data)
+       
+      })
+      .catch((err) => {
+        console.log(err)
+      })
+    };
+    
+    
       
-      
-      
-    }
     
   return (
     <div>

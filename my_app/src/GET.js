@@ -15,7 +15,7 @@ function GET() {
 
     })
   return (
-    <div>
+    <div className='container'>
       <h1>Api printing</h1>
       <table className='api'>
         <thead className='id'>   
@@ -23,7 +23,7 @@ function GET() {
         <th>userId</th>
         <th>id</th>
         <th>title</th> 
-        <th>body</th>
+       
         </tr>
        </thead>
        <tbody>
@@ -34,7 +34,7 @@ function GET() {
           <td>{am.userId}</td>
           <td>{am.id}</td>
           <td>{am.title}</td>
-          <td>{am.body}</td>
+          
         </tr>
          )  
         })}

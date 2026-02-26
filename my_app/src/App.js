@@ -1,15 +1,17 @@
 
 
-import BasicPost from './BasicPost';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import './Style.css';
+import GET from './GET';
 
 
 function App() {
   return (
     <div className="App">
-    <BasicPost/>
+   <GET/>
     </div>
   );
 }
